@@ -1,0 +1,22 @@
+h1{
+    color: blue;
+}
+
+h2{
+    color: red;
+}
+
+.cardDiv01{
+    background-color: black;
+    padding: 3px;
+    color:antiquewhite;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.cardDiv02{
+    background-color:tan; 
+    padding: 3px;
+    border-radius: 10px;
+    text-align: center;
+}
