@@ -1,9 +1,38 @@
 body{
-    margin:30px auto 0;
-    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
     font-family: sans-serif;
 }
 
-.empresa{
-    color:blue
+h1{
+    background-color: #fac068;
+    color: rgb(190, 84, 9);
+    text-align: center;
 }
+
+h2{
+    background-color: rgba(235, 60, 60, 0.589) ;
+    color: red;
+    padding: 8px;
+    border-bottom: 3px solid red;
+    font-weight: 800;
+}
+
+p{
+    font-size: 90%;
+}
+
+li{
+    margin-left: -25px;
+    font-size: 90%;
+}
+
+.empresa{
+    color:blue;
+}
+
+.tempo{
+    color:rgb(59, 59, 59);
+    font-weight: 600;
+}
+
