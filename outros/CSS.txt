@@ -1,0 +1,28 @@
+line-height
+
+list-style-position: inside
+
+//Carrega a imgagem de fundo//
+background-image: url(...)
+//////////////////////////////
+
+//preenche o fundo com a imagem//
+background-size: 100% 100%
+/////////////////////////////////
+
+background-size: contain
+background-size: cover
+background-position: right bottom
+
+background-repeat: x
+background-repeat: y
+background-repeat: no-repeat
+
+//background não repete//
+background-attachment: fixed
+//////////////////////////////
+
+// Envolve a imagem com o texto //
+float: left
+float: right
+//////////////////////////////////

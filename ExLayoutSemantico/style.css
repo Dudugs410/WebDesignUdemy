@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+    border: 5px dotted red;
+    background-color: lightgray;
+}
+
+.pageHeader{
+    background-image: url(imagens/bg-3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    
+}
+
+header>ul>li{
+    display: inline;
+    border: 2px solid white;
+    padding: 10px;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.336);
+    list-style-position: inside;
+}
+
+header>h4{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.699);
+    padding: 10px;
+    display: inline;
+}
+
+nav{
+    background-color: white;
+    height: 400px;
+
+}
+
+nav>ul>li{
+    display:inline;
+    padding: 10px;
+    color: white;
+    background-color: rgb(63, 63, 63);
+    list-style-position: inside;
+}
+
+h1{
+    color: white;
+}
+
+
+
