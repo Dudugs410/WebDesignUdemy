@@ -1,24 +1,23 @@
 body{
-    text-align: center;
     border: 5px dotted red;
     background-color: lightgray;
+    font-family: Arial, sans-serif;
+    margin: 0;
 }
 
-.pageHeader{
-    background-image: url(imagens/bg-3.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 400px;
-    
-}
-
-header>ul>li{
-    display: inline;
-    border: 2px solid white;
+h2{
     padding: 10px;
-    color: white;
-    background-color: rgba(128, 128, 128, 0.336);
-    list-style-position: inside;
+    background-color: rgb(241, 241, 241);
+    border-bottom: 2px solid darkgray;
+}
+
+h4{
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.548);
+    border-bottom: 2px solid white;
+    display: inline;
+    font-weight: 100;
+    font-size: 60%;
 }
 
 header>h4{
@@ -28,23 +27,86 @@ header>h4{
     display: inline;
 }
 
-nav{
-    background-color: white;
-    height: 400px;
-
+div{
+    text-align: center;
+    margin: auto;
 }
 
-nav>ul>li{
-    display:inline;
+header>nav>ul>li{
+    display: inline;
+    border: 2px solid white;
     padding: 10px;
     color: white;
-    background-color: rgb(63, 63, 63);
+    background-color: rgba(128, 128, 128, 0.336);
     list-style-position: inside;
+    position: relative;
+    top: 10px;
 }
 
-h1{
+main{
+    margin: auto;
+    text-align: center;
+}
+
+section{
+
+    background-color: white;
+    padding: 5px;
+    width: 1000px;
+    margin: auto;
+    
+    border: 2px dotted brown;
+}
+
+article{
+
+    padding: 5px;
+    margin-left: 5px;
+
+}
+
+div>p{
+    
+    text-align: center;
+    margin: auto;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.842);
+    width: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    bottom: 40px;
+
+}
+
+footer{
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
     color: white;
+    background-color: rgba(0, 0, 0, 0.637);
+    text-shadow: 3px 3px 5px black ;
 }
 
 
+.title{
+    color: white;
+    margin-top: 250px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 3px 3px 5px teal;
+    font-size: 26px;
+}
 
+.pageHeader{
+    background-image: url(imagens/bg-3.jpg);
+    height: 500px;
+    background-position: right center;
+    background-size: cover;
+    text-align: right;
+    
+}
+
+.card{
+    display: inline-block;
+}

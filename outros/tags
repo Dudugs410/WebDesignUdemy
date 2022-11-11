@@ -1,8 +1,9 @@
 
 h1 -> título
 p -> paragrafo
-br -> quebra de linha
+br -> quebra de linha (também da pra usar para criar separação entre elementos)
 hr -> separação horizontal
 ol -> lista ordenada
 ul -> lista não ordenada
 li -> item da lista
+line-height -> espaço entre as linhas de um texto
